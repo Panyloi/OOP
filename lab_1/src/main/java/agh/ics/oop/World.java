@@ -1,41 +1,49 @@
 package agh.isc.oop;
+import agh.ics.oop.Direction;
+
 import static java.lang.System.out;
 
 public class World {
     public static void main(String[] args) {
-//        out.println("System wystartował!");
         out.println("Start");
-        run(args);
-        out.println("Stop");
-//        out.println("System zakończył zadanie!");
-    }
-
-    public static void run(String[] args){
-//        out.println("Zwierzak idzie do przodu!");
-        for (int i=0; i<args.length; i++)
-        {
-//            out.print(args[i] + ",");
+        Direction[] directions = new Direction[args.length];
+        for(int i = 0; i< args.length; i++){
             switch (args[i]) {
                 case "f":
-                    out.println("Zwierzak idzie do przodu");
+                    directions[i] = Direction.FORWARD;
                     break;
                 case "b":
-                    out.println("Zwierzak idzie do tyłu");
+                    directions[i] = Direction.BACKWARD;
                     break;
                 case "r":
-                    out.println("Zwierzak skręca w prawo");
+                    directions[i] = Direction.RIGHT;
                     break;
                 case "l":
-                    out.println("Zwierzak skęca w lewo");
-                    break;
-                default:
+                    directions[i] = Direction.LEFT;
                     break;
             }
         }
-//        for (int i=0; i<args.length-1; i++)
-//        {
-//            out.print(args[i] + ",");
-//        }
-//        out.println( args[args.length - 1] );
+        run(directions);
+        out.println("Stop");
+    }
+
+    public static void run(Direction[] directions){
+        for (int i=0; i< directions.length; i++)
+        {
+            switch (directions[i]) {
+                case FORWARD:
+                    out.println("Zwierzak idzie do przodu");
+                    break;
+                case BACKWARD:
+                    out.println("Zwierzak idzie do tyłu");
+                    break;
+                case RIGHT:
+                    out.println("Zwierzak skręca w prawo");
+                    break;
+                case LEFT:
+                    out.println("Zwierzak skęca w lewo");
+                    break;
+            }
+        }
     }
 }
