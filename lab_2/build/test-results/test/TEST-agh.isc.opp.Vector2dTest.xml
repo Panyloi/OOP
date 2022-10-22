@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="agh.isc.opp.Vector2dTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2022-10-22T19:36:43" hostname="Hiro" time="0.036">
+  <properties/>
+  <testcase name="upperRightTest()" classname="agh.isc.opp.Vector2dTest" time="0.015"/>
+  <testcase name="addTest()" classname="agh.isc.opp.Vector2dTest" time="0.001"/>
+  <testcase name="precedesTest()" classname="agh.isc.opp.Vector2dTest" time="0.001"/>
+  <testcase name="oppositeTest()" classname="agh.isc.opp.Vector2dTest" time="0.001"/>
+  <testcase name="lowerLeftTest()" classname="agh.isc.opp.Vector2dTest" time="0.0"/>
+  <testcase name="equalsTest()" classname="agh.isc.opp.Vector2dTest" time="0.001"/>
+  <testcase name="toStringTest()" classname="agh.isc.opp.Vector2dTest" time="0.005"/>
+  <testcase name="subtractTest()" classname="agh.isc.opp.Vector2dTest" time="0.001"/>
+  <testcase name="followsTest()" classname="agh.isc.opp.Vector2dTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
