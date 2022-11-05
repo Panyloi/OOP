@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="agh.isc.opp.AnimalTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-11-05T10:13:22" hostname="Hiro" time="0.029">
+  <properties/>
+  <testcase name="testOutside()" classname="agh.isc.opp.AnimalTest" time="0.024"/>
+  <testcase name="correctPosition()" classname="agh.isc.opp.AnimalTest" time="0.0"/>
+  <testcase name="correctOrientation()" classname="agh.isc.opp.AnimalTest" time="0.001"/>
+  <testcase name="inputTest()" classname="agh.isc.opp.AnimalTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
