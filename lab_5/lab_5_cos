@@ -1,0 +1,21 @@
+lab_5
+
+wywołanie super() - w konstruktorze - zawsze wywołujemy jeżeli klasa nadrzędna ma konstruktor : super(...);
+
+
+wywoałenie metody poprzez super() :
+funkcja a: a(...){
+		   super.b();// wywołanie metody z klasy nadrzędnej}
+		   
+konstruktor listy nie musi być pusty - móżna dać tam jakąś listę i powstanie kopia listy
+
+Program do łapania błędów w kodzie: spotbugs , błędy IE1, IE2 - można zobaczyć
+
+przekazywanie referencji jest złą praktyką
+
+try, catch - nie łapać exception
+
+
+Spotbugs 
+Checkstyle
+PMD
