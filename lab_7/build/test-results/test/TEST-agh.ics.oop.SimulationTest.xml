@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="agh.ics.oop.SimulationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-12-06T13:00:34" hostname="Hiro" time="0.027">
+  <properties/>
+  <testcase name="collisionTest()" classname="agh.ics.oop.SimulationTest" time="0.027"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
